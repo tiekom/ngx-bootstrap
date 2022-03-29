@@ -133,5 +133,7 @@ export abstract class BsDatepickerAbstractComponent {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   _stopPropagation(event: any): void {
     event.stopPropagation();
+    console.log(event);
+    console.log(Error().stack);
   }
 }

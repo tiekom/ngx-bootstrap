@@ -113,7 +113,8 @@ export class BsDatepickerInputDirective
 
   onKeydownEvent(event: KeyboardEvent): void {
     if (event.keyCode === 13 || event.code === 'Enter') {
-      console.log(event)
+      console.log(event);
+
       this.hide();
     }
   }
